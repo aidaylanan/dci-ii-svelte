@@ -30,7 +30,9 @@
   "type": "module",
   "dependencies": {
     "@rollup/plugin-dsv": "^2.0.2",
+    "d3": "^7.9.0",
     "layercake": "^6.1.0",
-    "svelte-preprocess-import-assets": "^0.1.6"
+    "svelte-preprocess-import-assets": "^0.1.6",
+    "topojson": "^3.0.2"
   }
 }

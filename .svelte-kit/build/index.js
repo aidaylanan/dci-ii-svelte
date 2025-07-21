@@ -1,8 +1,8 @@
 
 import root from '__GENERATED__/root.svelte';
-import { respond } from '/Users/soma/Curriculum/2022-interactives/01-welcome/classwork/02-CLI/.svelte-kit/runtime/server/index.js';
-import { set_paths, assets, base } from '/Users/soma/Curriculum/2022-interactives/01-welcome/classwork/02-CLI/.svelte-kit/runtime/paths.js';
-import { set_prerendering } from '/Users/soma/Curriculum/2022-interactives/01-welcome/classwork/02-CLI/.svelte-kit/runtime/env.js';
+import { respond } from '/Users/aidaylanan/Code/example-svelte-viz-page-dci-ii/.svelte-kit/runtime/server/index.js';
+import { set_paths, assets, base } from '/Users/aidaylanan/Code/example-svelte-viz-page-dci-ii/.svelte-kit/runtime/paths.js';
+import { set_prerendering } from '/Users/aidaylanan/Code/example-svelte-viz-page-dci-ii/.svelte-kit/runtime/env.js';
 import * as user_hooks from "./hooks.js";
 
 const template = ({ head, body, assets, nonce }) => "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<meta name=\"description\" content=\"Svelte viz build system demo\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\" />\n\t\t" + head + "\n\t</head>\n\t<body>\n\t\t<div id=\"svelte\">" + body + "</div>\n\t</body>\n</html>\n";
