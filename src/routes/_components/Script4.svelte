@@ -28,8 +28,6 @@
     d.Close = +d.Close
   })
 
-  // console.log(data)
-
   $: line = d3
     .line()
     .x(function (d) {
@@ -40,6 +38,7 @@
     })
 
   $: pathData = line(data)
+  
 
   // Axis generators
   $: xAxis = d3.axisBottom(xScale)
@@ -55,6 +54,7 @@
   function renderYAxis(node) {
     d3.select(node).call(yAxis)
   }
+  
 </script>
 
 <div id="dow-jones">

@@ -1,0 +1,23 @@
+export default [
+	{ species: 'Jasmine', color: 'Red', petal_length: 30, sepal_length: 100 },
+  { species: 'Rose', color: 'Red', petal_length: 85, sepal_length: 43 },
+  { species: 'Sunflower', color: 'Yellow', petal_length: 71, sepal_length: 61 },
+  { species: 'Tulip', color: 'Pink', petal_length: 62, sepal_length: 33 },
+  { species: 'Lily', color: 'White', petal_length: 53, sepal_length: 24 },
+  { species: 'Daisy', color: 'White', petal_length: 42, sepal_length: 79 },
+  { species: 'Orchid', color: 'Purple', petal_length: 91, sepal_length: 16 },
+  { species: 'Carnation', color: 'Pink', petal_length: 37, sepal_length: 90 },
+  { species: 'Poppy', color: 'Red', petal_length: 19, sepal_length: 47 },
+  { species: 'Daffodil', color: 'Yellow', petal_length: 65, sepal_length: 76 },
+  { species: 'Iris', color: 'Purple', petal_length: 72, sepal_length: 10 },
+  { species: 'Chrysanthemum', color: 'White', petal_length: 99, sepal_length: 29 },
+  { species: 'Marigold', color: 'Orange', petal_length: 27, sepal_length: 84 },
+  { species: 'Hyacinth', color: 'Blue', petal_length: 78, sepal_length: 38 },
+  { species: 'Pansy', color: 'Purple', petal_length: 14, sepal_length: 93 },
+  { species: 'Dahlia', color: 'Red', petal_length: 87, sepal_length: 56 },
+  { species: 'Crocus', color: 'Yellow', petal_length: 48, sepal_length: 69 },
+  { species: 'Anemone', color: 'Pink', petal_length: 94, sepal_length: 20 },
+  { species: 'Peony', color: 'White', petal_length: 31, sepal_length: 74 },
+  { species: 'Zinnia', color: 'Orange', petal_length: 68, sepal_length: 51 },
+  { species: 'Gerbera', color: 'Pink', petal_length: 100, sepal_length: 10 }
+];

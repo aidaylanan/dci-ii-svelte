@@ -144,3 +144,16 @@ body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   
+  .script{
+    background-color:whitesmoke;
+  }
+  .script-name{
+    font-size:small;
+    font-family: "Courier New", Courier, monospace;
+    font-weight:500;
+
+  }
+
+  pre{
+    margin-top:0;
+  }

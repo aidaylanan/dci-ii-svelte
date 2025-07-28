@@ -8,11 +8,21 @@
     { x: 200, y: 200 },
     { x: 250, y: 250 },
   ]
+
+  
 </script>
 
 <!-- Using {#each}, make five circles (r=10) using the df above -->
 <!-- Place each circle according to the coordinates provided in each row of the array -->
-<!-- Using {#if}, make circles with x=> 150 skyblue, and everything else green  -->
+<!-- Using {#if}, make circles with x>= 150 skyblue, and everything else green  -->
 <div>
-
+  <svg {width} {height}>
+    {#each df as d}
+      {#if d.x >= 150}
+        <circle cx={d.x} cy={d.y} r="10" fill="skyblue" />
+      {:else}
+        <circle cx={d.x} cy={d.y} r="10" fill="green" />
+      {/if}
+    {/each}
+  </svg>
 </div>
